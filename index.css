@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.column{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.score-bg{
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.points-text{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 90px;
+    font-weight: normal;
+}
+
+.board-title{
+    font-size: 40px;
+    font-family: verdana;
+    color: #eeeeee;
+    font-weight: bold;
+    margin: 22px 0px;
+}
+
+#add-points-btns{
+    display: flex;
+    width: 155px;
+    height: 45px;
+    justify-content: space-around;
+    margin: 22px;
+
+}
+
+.plus-points{
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    width: 45px;
+    height: 45px;
+    margin: 0px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.plus-points:hover{
+    background-color: rgb(17, 26, 64);
+    /* box-shadow: 0px 1px 8px rgb(200, 200, 200, 0.5); */
+}

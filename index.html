@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3 class="board-title" id="board-title-home">HOME</h3>
+                <div class="score-bg" id="home-score">
+                    <h1 class="points-text" id="home-el">0</h1>
+                </div>
+                <div id="add-points-btns">
+                    <button class="plus-points" onclick="increaseHome(1)">
+                        +1
+                    </button>
+                    <button class="plus-points" onclick="increaseHome(2)">
+                        +2
+                    </button>
+                    <button class="plus-points" onclick="increaseHome(3)">
+                        +3
+                    </button>
+                </div>
+            </div>
+            <div class="column">
+                <h3  class="board-title" id="board-title-guest">GUEST</h3>
+                <div class="score-bg" id="guest-score">
+                    <h1 class="points-text" id="guest-el">0</h1>
+                </div>
+                <div id="add-points-btns">
+                    <button class="plus-points" onclick="increaseGuest(1)">
+                        +1
+                    </button>
+                    <button class="plus-points" onclick="increaseGuest(2)">
+                        +2
+                    </button>
+                    <button class="plus-points" onclick="increaseGuest(3)">
+                        +3
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
